@@ -11,7 +11,6 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name].has_key?(main)
           new_hash[name][main] = []
         end
-
         if !new_hash[name][main].include?(value)
           new_hash[name][value] << value.to_s
         end
